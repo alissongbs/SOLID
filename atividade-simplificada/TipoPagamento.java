@@ -1,3 +1,3 @@
 public interface TipoPagamento{
-    public void pagamento();
+    public void pagamento(Pedido pedido);
 }

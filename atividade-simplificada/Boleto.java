@@ -1,5 +1,5 @@
 public class Boleto implements TipoPagamento{
-    public void pagamento(){
+    public void pagamento(Pedido pedido){
         System.out.println("Processando pagamento via Boleto Bancário...");
     }
 }
